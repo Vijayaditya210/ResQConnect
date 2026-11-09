@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emergency-red: #ef4444;
+    --color-emergency-orange: #f97316;
+    --color-emergency-green: #10b981;
+    --color-emergency-blue: #3b82f6;
+    --color-emergency-purple: #8b5cf6;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased selection:bg-blue-500 selection:text-white font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Scrollbar for Emergency Dashboards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Radar Pulse Animation */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 12px rgba(239, 68, 68, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.radar-ping {
+  animation: radar-pulse 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* Glowing borders */
+.glow-border-red {
+  box-shadow: 0 0 15px -3px rgba(239, 68, 68, 0.3);
+}
+.glow-border-blue {
+  box-shadow: 0 0 15px -3px rgba(59, 130, 246, 0.3);
+}
+.glow-border-green {
+  box-shadow: 0 0 15px -3px rgba(16, 185, 129, 0.3);
+}

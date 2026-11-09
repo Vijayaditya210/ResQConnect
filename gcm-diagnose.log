@@ -1,0 +1,175 @@
+﻿Diagnose log at 2026-09-02T15:18:54Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.9.1+6760f0ef069c994aa2bb1d703fb374986ee82a3e
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+TMP=C:\Users\MADHAN SRI SAI\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\MADHAN SRI SAI\bin;C:\Users\MADHAN SRI SAI\AppData\Roaming\Antigravity\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\MADHAN SRI SAI\AppData\Local\Microsoft\WindowsApps;C:\Users\MADHAN SRI SAI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MADHAN SRI SAI\AppData\Roaming\npm
+AGY_BROWSER_ACTIVE_PORT_FILE=C:\Users\MADHAN SRI SAI\AppData\Roaming\Antigravity\DevToolsActivePort
+PROCESSOR_REVISION=aa04
+TEMP=C:\Users\MADHAN SRI SAI\AppData\Local\Temp
+USERPROFILE=C:\Users\MADHAN SRI SAI
+LOGONSERVER=\\DESKTOP-L53A84F
+TERM=xterm-256color
+USERNAME=MADHAN SRI SAI
+SystemRoot=C:\WINDOWS
+AGY_BROWSER_WS_URL=ws://127.0.0.1:58578/devtools/browser/6e6957fe-440d-4fed-a645-d7465e3bca8e
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\MADHAN SRI SAI\OneDrive
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+HOMEPATH=\Users\MADHAN SRI SAI
+OneDriveConsumer=C:\Users\MADHAN SRI SAI\OneDrive
+COMPUTERNAME=DESKTOP-L53A84F
+EFC_25016_4126798990=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=dc9cedcb-c60f-4bc0-92f4-025ab5d5a67c
+NUMBER_OF_PROCESSORS=18
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+CHROME_DEVTOOLS_MCP_JS=C:\Users\MADHAN SRI SAI\AppData\Local\Programs\antigravity\resources\app.asar.unpacked\node_modules\chrome-devtools-mcp\build\src\bin\chrome-devtools-mcp.js
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\MADHAN SRI SAI
+PSModulePath=C:\Users\MADHAN SRI SAI\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\MADHAN SRI SAI\AppData\Local\Temp
+APPDATA=C:\Users\MADHAN SRI SAI\AppData\Roaming
+USERDOMAIN=DESKTOP-L53A84F
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\MADHAN SRI SAI\AppData\Local
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-L53A84F
+EFC_25016_1592913036=1
+PUBLIC=C:\Users\Public
+CommonProgramFiles=C:\Program Files\Common Files
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\MADHAN SRI SAI\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\MADHAN SRI SAI\AppData\Local\Temp\87944b24adf818dbdc1596ea'... OK
+Reading from temporary file 'C:\Users\MADHAN SRI SAI\AppData\Local\Temp\87944b24adf818dbdc1596ea'... OK
+Deleting temporary file 'C:\Users\MADHAN SRI SAI\AppData\Local\Temp\87944b24adf818dbdc1596ea'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\MADHAN SRI SAI
+UserDataDirectoryPath: C:\Users\MADHAN SRI SAI\.gcm
+GetCurrentDirectory(): C:\Users\MADHAN SRI SAI\OneDrive\Desktop\ResQConnect
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:50068/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.5'
+Locating current repository...Git repository at 'C:/Users/MADHAN SRI SAI/OneDrive/Desktop/ResQConnect/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/MADHAN SRI SAI/.gitconfig	user.name=venkateshmamidi-dev
+file:C:/Users/MADHAN SRI SAI/.gitconfig	user.email=venkateshmamidi25670@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/venkateshmamidi-dev/ResQConnect.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\MADHAN SRI SAI\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\MADHAN SRI SAI\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
